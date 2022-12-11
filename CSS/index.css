@@ -12,6 +12,10 @@ body{
     color: #2c2f33;
 }
 
+nav{
+    position: sticky;
+    top: 0;
+}
 
 .nav{   
     width:100%;
