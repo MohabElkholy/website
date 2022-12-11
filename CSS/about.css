@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    background-color: #BBE1FA;
+}
+
+nav{
+    padding: 1.5rem;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: #3282B8;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li a:hover, a:focus{
+    color: #0F4C75;
+}
+
+li a:active{
+    color: #1B262C;
+}
+
+main{
+    text-align: center;
+}
+
+.head{
+    line-height: 3.2rem;
+    color: #1B262C;
+}
+
+.head h1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.head p{
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: 2rem;
+}
+
+.contact-me{
+    margin-top: 6rem;
+}
+
+.title{
+    font-size: 2rem;
+}
+
+.email, .phone, .social-media{
+    margin-top: 4rem;
+    line-height: 0.5rem;
+}
+
+.email p, .phone p{
+    font-size: 1.4rem;
+}
+

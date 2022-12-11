@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Tajawal', sans-serif;
+    text-align: right;
+    font-size: 1.2rem;
+    background-color:  #F8F8FF;
+    color: #2c2f33;
+}
+
+
+.nav{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 27, 27);
+    list-style: none;
+    text-align: center;
+}
+
+.nav-item{
+    display: inline-block;
+    margin: 0.7rem;
+}
+
+.nav-item a{
+    color: rgba(245, 245, 245, 0.589);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.nav-item a:hover, a:focus{
+    color: rgb(255, 255, 255);
+}
+
+.nav-item a:active{
+    color: rgb(158, 132, 132);
+}
+
+header{
+    text-align: center;
+}
+
+section, header{
+    margin: 1rem;
+}
+
+section ul{
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+img{
+    border: 2px solid black;
+}
+
+.importantEquation{
+    display: flow-root;
+}
+
+.img-floot{
+    float: right;
+    margin-left: 1rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer p a{
+    text-decoration: none;
+    color: #7289da;
+}
+
+.medical-field, .travel-abroad, .death2{
+    line-height: 2rem;
+}
+
+.medical-field span, .travel-abroad span, .death2 span{
+    margin-right: 10rem;
+}
+
+.humanitarian-activities span{
+   color: #7289da
+}
