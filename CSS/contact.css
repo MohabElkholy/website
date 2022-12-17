@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tajawal', sans-serif;
-    background-color: #BBE1FA;
+    background-image: linear-gradient(to right, #2193b0, #6dd5ed);
 }
 
 nav{
@@ -26,6 +26,10 @@ li a{
     font-size: 2rem;
     font-weight: bold;
     margin-right: 1rem;
+    text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
 }
 
 li a:hover, a:focus{
@@ -41,12 +45,12 @@ main{
 }
 
 .head{
-    line-height: 3.2rem;
+    line-height: 3rem;
     color: #1B262C;
 }
 
 .head h1{
-    font-size: 3.9rem;
+    font-size: 3.5rem;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
@@ -54,15 +58,16 @@ main{
 .head p{
     margin-top: 0px;
     padding-top: 0px;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .contact-me{
-    margin-top: 6rem;
+    margin-top: 3.5rem;
+    color: #1B262C;
 }
 
 .title{
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .email, .phone, .social-media{
@@ -70,7 +75,13 @@ main{
     line-height: 0.5rem;
 }
 
+.email a{
+    display: inline-block;
+    color: #1B262C;
+    text-decoration: none;
+}
+
 .email p, .phone p{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 
