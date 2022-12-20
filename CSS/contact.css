@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Tajawal', sans-serif;
-    background-image: linear-gradient(to right, #2193b0, #6dd5ed);
+    background-color: whitesmoke;
 }
 
 nav{
@@ -22,18 +22,15 @@ ul{
 
 li a{
     text-decoration: none;
-    color: #3282B8;
+    color: #313221;
     font-size: 2rem;
     font-weight: bold;
     margin-right: 1rem;
-    text-shadow: -1px 1px 2px #000,
-				  1px 1px 2px #000,
-				  1px -1px 0 #000,
-				  -1px -1px 0 #000;
 }
 
 li a:hover, a:focus{
     color: #0F4C75;
+    text-decoration: underline;
 }
 
 li a:active{
@@ -77,7 +74,7 @@ main{
 
 .email a{
     display: inline-block;
-    color: #1B262C;
+    color: #333;
     text-decoration: none;
 }
 
